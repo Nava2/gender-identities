@@ -11,4 +11,4 @@ I'm not very familiar with programming and manipulating data on the web, so if I
 If I'm missing an identitiy, pronoun, or when the example code comes around please feel encouraged modify or improve any of the code in this repositoy!
 
 ##Usage
-#Use it however and whereever you want!
+#Use it however and wherever you want!
