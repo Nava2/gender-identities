@@ -1,0 +1,3 @@
+[submodule "gender-identities"]
+	path = gender-identities
+	url = https://github.com/evinugur/gender-identities.git
