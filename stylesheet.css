@@ -51,3 +51,48 @@ table {
 }
 
 /* END OF RESET */
+
+#banner {
+	height:150px ;
+	width:100% ;
+	clear: ;
+	float:left ;
+	background-color:#0e5066 ;
+	color:white ;
+}
+
+#left {
+	height:757px ;
+	width:26% ;
+	clear:both ;
+	float:left ;
+	background-color:#1a8bb3 ;
+	color:white ;
+	padding: 1% 2% 0 2%;
+	margin: ;
+}
+
+#right {
+	height:757px ;
+	width:68% ;
+	clear: ;
+	float:left ;
+	background-color:#127a9c;
+	color:white ;
+	padding: 1% 0 0 2%;
+	margin: ;
+}
+
+h1 {
+	font-size:50px;
+	color:white;
+	padding: 50px 0 0 40px
+}
+
+p {
+	font-size:20px;
+	color:white;
+	padding: 50px 0 0 40px
+	font-type: ;
+
+}
