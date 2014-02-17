@@ -1,4 +1,4 @@
-$.getJSON('identities.json', function(data) {
+$.getJSON('gender-identities/identities.json', function(data) {
 	var genderIdentities = data.identities;
 	var dropdown = document.getElementById("identitiesDropdown");
 	for (var i = 0; i < genderIdentities.length; i++) {
