@@ -62,8 +62,8 @@ table {
 }
 
 #left {
-	height:757px ;
-	width:26% ;
+	height:357px ;
+	width:96% ;
 	clear:both ;
 	float:left ;
 	background-color:#1a8bb3 ;
@@ -73,9 +73,9 @@ table {
 }
 
 #right {
-	height:757px ;
-	width:68% ;
-	clear: ;
+	height:390px ;
+	width:98% ;
+	clear:both ;
 	float:left ;
 	background-color:#127a9c;
 	color:white ;
