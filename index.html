@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>JSON Gender Identities</title>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="gender-identities/DropdownExample.js"></script>
+<script src="gender-identities/PronounsExample.js"></script>
+<a href="https://github.com/evinugur/gender-identities#json-gender-identities"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
 </head>
 
 <body>
 	
 
 
-<div id=banner>
-<h1> Identity demo </h1>
+<div id="banner">
+<h1>Help Create an Internet that Welcomes Everyone</h1>
 </div>
 
 
-<div id=left>
-<p> This is where you can write your paragraph </p>
+<div id="left">
+<p id = "bodyText">
+	Online identity is becoming a larger and larger part of many people's personal identities, but despite this recent age of technological integration, the web still isn't as welcoming as many of us perceive it to be. Between the dozens of websites that I've been a part of over the past decade I've spent online, most every place has a sign up form or some other form of personal identification that allows gender to be represented as <em>male</em>, <em>female</em>, or the occasional <em>other</em>. While these blanket forms of identifcation probably fit most people online, many people identify how they experience their gender differently, and they I think the Internet would be a better place if people had the optional choice to specifiy their gender when they sign up. Recently, <a href = "http://www.huffingtonpost.com/dana-beyer/facebooks-gender-identities_b_4811147.html">Facebook has taken great strides in this</a>, and so I started this project to easily integrate similar degrees of specification into your own website through the open source community.
+</p>
 
 <p> Hey man look at this paragraph</p>
 
@@ -26,12 +31,11 @@
 
 </div>
 
-
-<div id=right>
+<div id="right">
 Gender
 
-<select id = "identitiesDropdown">
-	</select>
+<select id = "identitiesDropdown"></select>
+<select id = "pronounsDropdown"></select>
 
 </div>
 

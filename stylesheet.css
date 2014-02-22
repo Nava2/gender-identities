@@ -55,7 +55,6 @@ table {
 #banner {
 	height:150px ;
 	width:100% ;
-	clear: ;
 	float:left ;
 	background-color:#0e5066 ;
 	color:white ;
@@ -63,13 +62,12 @@ table {
 
 #left {
 	height:357px ;
-	width:96% ;
+	width:98% ;
 	clear:both ;
 	float:left ;
 	background-color:#1a8bb3 ;
 	color:white ;
-	padding: 1% 2% 0 2%;
-	margin: ;
+	padding: 1% 2% 0 0%;
 }
 
 #right {
@@ -83,6 +81,7 @@ table {
 	margin: ;
 }
 
+
 h1 {
 	font-size:50px;
 	color:white;
@@ -92,7 +91,7 @@ h1 {
 p {
 	font-size:20px;
 	color:white;
-	padding: 50px 0 0 40px
-	font-type: ;
-
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
