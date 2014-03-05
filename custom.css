@@ -1,1 +1,29 @@
 /* Evin Ugur, custom CSS outside of the Cover Bootstrap template */
+
+code {
+	color: black;
+}
+
+#dropdownExample select{
+	color: black;
+	font-size: 13pt;
+}
+
+.entry #selectCaption{
+	font-size: 13pt;
+	font-style: italic;
+}
+
+.entry, .entry select {
+	padding-top: 0px;
+	margin-top: -15px;
+}
+
+#firstParagraph {
+	font-weight: bold;
+	color: #BDBDBD;
+}
+
+.lead a {
+	color: #05FFE2;
+}
