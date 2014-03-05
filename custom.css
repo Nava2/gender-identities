@@ -27,3 +27,6 @@ code {
 .lead a {
 	color: #05FFE2;
 }
+.lead {
+	font-size: 15pt;
+}
