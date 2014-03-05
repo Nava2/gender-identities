@@ -1,45 +1,80 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>JSON Gender Identities</title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="gender-identities/DropdownExample.js"></script>
-<script src="gender-identities/PronounsExample.js"></script>
-<a href="https://github.com/evinugur/gender-identities#json-gender-identities"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
-</head>
+<html lang="en">
+  <head>
+  	<a href="https://github.com/evinugur/gender-identities"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Add support for the LGBTQ community to your website">
+    <meta name="author" content="Evin Ugur">
 
-<body>
-	
+    <title>JSON Gender Identities</title>
 
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
 
-<div id="banner">
-<h1>Help Create an Internet that Welcomes Everyone</h1>
-</div>
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
 
+    <link href="custom.css" rel= "stylesheet">
 
-<div id="left">
-<p id = "bodyText">
-	Online identity is becoming a larger and larger part of many people's personal identities, but despite this recent age of technological integration, the web still isn't as welcoming as many of us perceive it to be. Between the dozens of websites that I've been a part of over the past decade I've spent online, most every place has a sign up form or some other form of personal identification that allows gender to be represented as <em>male</em>, <em>female</em>, or the occasional <em>other</em>. While these blanket forms of identifcation probably fit most people online, many people identify how they experience their gender differently, and they I think the Internet would be a better place if people had the optional choice to specifiy their gender when they sign up. Recently, <a href = "http://www.huffingtonpost.com/dana-beyer/facebooks-gender-identities_b_4811147.html">Facebook has taken great strides in this</a>, and so I started this project to easily integrate similar degrees of specification into your own website through the open source community.
-</p>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-<p> Hey man look at this paragraph</p>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a nunc ac purus gravida pharetra luctus in mauris. Integer tempor adipiscing velit at posuere. Donec vitae varius eros, ac tincidunt risus. Donec lobortis euismod posuere. Aenean non turpis venenatis libero mattis pharetra id ac libero. Aliquam non est placerat, pellentesque felis a, ornare orci. Aliquam consequat justo sed urna interdum elementum eget in libero. Nunc arcu nulla, aliquam eu pellentesque ac, congue mollis velit. Vestibulum posuere diam at libero lobortis, vitae consectetur odio lacinia. Proin vestibulum dictum orci suscipit varius. Aliquam erat volutpat. Cras fringilla felis at ligula elementum ullamcorper. Cras gravida posuere dolor in semper. Etiam vehicula velit metus.   </p>
+  <body>
 
+    <div class="site-wrapper">
 
+      <div class="site-wrapper-inner">
 
-</div>
+        <div class="cover-container">
 
-<div id="right">
-Gender
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">JSON Gender Identities</h3>
+              <ul class="nav masthead-nav">
+                <li><a href="mailto:evinoog96@gmail.com?Subject=JSON%20Gender%20Identities">Contact</a></li>
+              </ul>
+            </div>
+          </div>
 
-<select id = "identitiesDropdown"></select>
-<select id = "pronounsDropdown"></select>
+          <div class="inner cover">
+            <h1 class="cover-heading">Let Your Users Represent Themselves <strong>Their</strong> Way</h1>
+            <p class="lead">JSON Gender Identities is an open source and easy way to enable users of your app or website to express themselves the way that they chose to. Giving people the power of expression is something that we need to see more of, and through the power of the open source community you can be a force of change and make the Internet a better place for everyone.</p>
+            <h2>Usage</h2>
+            <p class = "lead">
+            	Use the files <em><a href = "https://raw.github.com/evinugur/gender-identities/master/identities.json">identities.json</a></em> and <em><a href = "https://raw.github.com/evinugur/gender-identities/master/pronouns.json"> pronouns.json</a></em> to populate your sign up form, user profile page, etc.
+            </p>
+          </div>
 
-</div>
+          <div class="mastfoot">
+            <div class="inner">
+              <p>foobar</p>
+              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
 
-</body>
+        </div>
 
+      </div>
 
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="docs.min.js"></script>
+    <!-- my js -->
+    <script src="gender-identities/identity-dropdown.js"></script>
+    <script src="gender-identities/pronoun-dropdown.js"></script>
+  </body>
 </html>
