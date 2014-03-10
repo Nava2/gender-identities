@@ -6,11 +6,11 @@ code {
 
 #dropdownExample select{
 	color: black;
-	font-size: 13pt;
+	font-size: 12pt;
 }
 
 .entry #selectCaption{
-	font-size: 13pt;
+	font-size: 12pt;
 	font-style: italic;
 }
 
@@ -28,5 +28,10 @@ code {
 	color: #05FFE2;
 }
 .lead {
-	font-size: 15pt;
+	font-size: 13pt;
+}
+
+
+#bodyParagraphs {
+
 }
