@@ -8,6 +8,7 @@ I'm not very familiar with manipulating data on the web, so if I'm doing somethi
 
 ##Can I Contribute?
 **Please!!!**<br>
+
 If I'm missing an identitiy, pronoun, or when the example code comes around please feel encouraged modify or improve any of the code in this repositoy!
 
 Other things that need improvement:
@@ -16,5 +17,10 @@ Other things that need improvement:
 * The <a href = "http://evinugur.com/gender-identities">landing page</a> is always welcome for some improvement
 
 
+##Donation
+If you like this project and what it stands for, please consider donating some <a href = "educoin.cc">EDU Coins</a> to help fund my college education.
+My receiving address is: `6Lq1BtS6hatqEpxtzcvLH42qCr6EjyvzLM`
+<img src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=6Lq1BtS6hatqEpxtzcvLH42qCr6EjyvzLM">
+ 
 ##Usage
 Please use this however and wherever you want. There's some simple examples on my site demoing a basic dropdown control with the HTML `select` element at this <a href = "https://evinugur.com/gender-identities">link</a>.
