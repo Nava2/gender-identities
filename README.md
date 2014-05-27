@@ -19,7 +19,7 @@ Other things that need improvement:
 
 ##Donation
 If you like this project and what it stands for, please consider donating some <a href = "educoin.cc">EDU Coins</a> to help fund my college education.
-My receiving address is: `6Lq1BtS6hatqEpxtzcvLH42qCr6EjyvzLM`
+My receiving address is: `6Lq1BtS6hatqEpxtzcvLH42qCr6EjyvzLM`<br>
 <img src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=6Lq1BtS6hatqEpxtzcvLH42qCr6EjyvzLM">
  
 ##Usage
