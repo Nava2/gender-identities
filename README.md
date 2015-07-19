@@ -6,6 +6,12 @@ The whole internet should be doing this, and I'm not totally sure about the most
 
 I'm not very familiar with manipulating data on the web, so if I'm doing something wrong please tell me :)
 
+## Node.js
+
+1. Simply install via npm: `npm install gender-identities --save`.
+2. Then require: `var gidentities = require('gender-identities');`
+3. Use: `console.log(gidentities.identities);`
+
 ##Can I Contribute?
 **Please!!!**<br>
 
