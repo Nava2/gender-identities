@@ -1,0 +1,23 @@
+{
+  "name": "gender-identities",
+  "version": "1.0.0",
+  "description": "JSON data about gender identities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nava2/gender-identities.git"
+  },
+  "keywords": [
+    "gender",
+    "gender-identities"
+  ],
+  "author": "Evin Ugur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nava2/gender-identities/issues"
+  },
+  "homepage": "https://github.com/Nava2/gender-identities#readme"
+}
